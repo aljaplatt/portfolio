@@ -1,0 +1,138 @@
+.container {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  /* border: 3px solid red; */
+  margin-bottom: 3rem;
+}
+
+.mailContainer {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.socialContainer {
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+
+.contactTitle {
+  color: #f60ffa;
+  /* border: 3px solid yellow; */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.socialPara {
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.socPara {
+  font-family: "Outfit", sans-serif;
+  color: #f60ffa;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.emailText {
+  width: 75%;
+  margin-top: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  border: 1px solid #1f66ad;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5em 2em;
+}
+
+.sectionTitle {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  font-family: "Outfit", sans-serif;
+  color: #f60ffa;
+  font-size: 2rem;
+}
+
+.button {
+  padding: 1em 4em;
+  border-radius: 8px;
+  border: 1px solid #1f66ad;
+  margin-top: 2rem;
+  color: #fff;
+  background: #f60ffa;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+}
+
+.input {
+  padding: 0.5em 2em;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #1f66ad;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.4rem;
+  width: 75%;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 20px 40px 20px;
+}
+
+.copyright {
+  font-family: "Outfit", sans-serif;
+}
+
+.contactSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 3px solid red; */
+}
+
+.socialLink {
+  padding: 15px;
+}
+
+.socialLogo {
+  min-width: 60px;
+  max-width: 200px;
+  height: 60px;
+  margin: 2rem;
+}
+
+/* .socialLogo:hover {
+        transition: 2s;
+        transform: rotate(360deg) rotateY(360deg);
+      } */
+
+@media (min-width: 0) and (max-width: 576px) {
+  .footer {
+    width: 75%;
+  }
+}

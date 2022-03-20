@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap");
+
+.header {
+  margin: 2rem 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 100%;
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+  .header {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+}

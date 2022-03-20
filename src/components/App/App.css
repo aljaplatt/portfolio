@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&family=Major+Mono+Display&family=Montserrat:wght@300&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #fbfbff;
+  color: #34622a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #34622a;
+}
+
+/* MOBILE-FIRST */
+
+@media (min-width: 0) and (max-device-width: 576px) {
+  .App {
+    width: 100%;
+  }
+}
