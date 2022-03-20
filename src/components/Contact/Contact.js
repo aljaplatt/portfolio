@@ -19,7 +19,7 @@ const Contact = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <section className={style.colContainer}>
+    <section>
       <h2 className={style.contactTitle}>contact</h2>
       <section className={style.container}>
         <div className={style.mailContainer}>
@@ -49,11 +49,11 @@ const Contact = () => {
           </form>
         </div>
         <div className={style.socialContainer}>
-          <section className={style.contactSectionWrapper} id="contact">
+          <section className={style.contactSectionContainer} id="contact">
             <div className={style.socialPara}>
               <p className={style.socPara}>Or say 'hi' on social media...</p>
             </div>
-            <section className={style.contactLinks}>
+            <section className={style.socialLinksContainer}>
               <a
                 href="https://www.linkedin.com/in/alex-platt-linked/"
                 className={style.socialLink}

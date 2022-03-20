@@ -98,7 +98,7 @@
   font-family: "Outfit", sans-serif;
 }
 
-.contactSectionWrapper {
+.contactSectionContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -106,7 +106,7 @@
   width: 100%;
 }
 
-.contactLinks {
+.socialLinksContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -125,11 +125,6 @@
   height: 60px;
   margin: 2rem;
 }
-
-/* .socialLogo:hover {
-        transition: 2s;
-        transform: rotate(360deg) rotateY(360deg);
-      } */
 
 @media (min-width: 0) and (max-width: 576px) {
   .footer {
