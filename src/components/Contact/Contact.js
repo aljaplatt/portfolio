@@ -31,13 +31,13 @@ const Contact = () => {
               className={style.input}
               type="text"
               name="name"
-              placeholder="Enter your name"
+              placeholder="Name"
             />
             <input
               className={style.input}
               type="email"
               name="user_email"
-              placeholder="Enter your email"
+              placeholder="Email"
             />
             <textarea
               name="message"
@@ -51,7 +51,7 @@ const Contact = () => {
         <div className={style.socialContainer}>
           <section className={style.contactSectionContainer} id="contact">
             <div className={style.socialPara}>
-              <p className={style.socPara}>Or say 'hi' on social media...</p>
+              <p className={style.socPara}>Or say 'hi' on social media.</p>
             </div>
             <section className={style.socialLinksContainer}>
               <a

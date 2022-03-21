@@ -4,11 +4,13 @@
   display: flex;
   /* border: 3px solid red; */
   margin-bottom: 3rem;
+  display: flex;
 }
 
 .mailContainer {
-  width: 25%;
+  max-width: 55%;
   margin: 0 auto;
+  /* border: 3px solid red; */
 }
 
 .socialContainer {
@@ -64,10 +66,11 @@
 }
 
 .button {
+  display: block;
   padding: 1em 4em;
   border-radius: 8px;
   border: 1px solid #1f66ad;
-  margin-top: 2rem;
+  margin: 2rem auto;
   color: #fff;
   background: #f60ffa;
   font-family: "Outfit", sans-serif;
@@ -81,28 +84,14 @@
   border: 1px solid #1f66ad;
   font-family: "Outfit", sans-serif;
   font-size: 1.4rem;
-  width: 75%;
+  max-width: 36%;
   text-align: center;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  padding: 40px 20px 40px 20px;
-}
-
-.copyright {
-  font-family: "Outfit", sans-serif;
 }
 
 .contactSectionContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   width: 100%;
 }
 
@@ -127,7 +116,11 @@
 }
 
 @media (min-width: 0) and (max-width: 576px) {
-  .footer {
-    width: 75%;
+  .container {
+    flex-direction: column;
+  }
+  .input {
+    max-width: 75%;
+    font-size: 0.8rem;
   }
 }
