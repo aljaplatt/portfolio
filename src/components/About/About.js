@@ -19,7 +19,7 @@ const About = () => {
 
         <section /*id="bio"*/ className={style.aboutMe}>
           <p className={style.aboutPara}>
-            I'm a full-stack, developer who loves to learn new tech and tackle
+            I'm a full-stack developer who loves to learn new tech and tackle
             interesting problems.
             {/* I began to code after exploring website builders to build a website
             for my Cafe & Catering business. */}
