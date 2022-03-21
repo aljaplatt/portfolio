@@ -19,14 +19,16 @@ const About = () => {
 
         <section /*id="bio"*/ className={style.aboutMe}>
           <p className={style.aboutPara}>
-            I began to code after exploring website builders to build a website
-            for my Cafe & Catering business.
+            I'm a full-stack, developer who loves to learn new tech and tackle
+            interesting problems.
+            {/* I began to code after exploring website builders to build a website
+            for my Cafe & Catering business. */}
           </p>
+
           <p className={style.aboutPara}>
-            I loved the process, but quickly understood that to satisfy the
-            creative freedom I was missing, I would have to explore beyond these
-            more restrictive services. I didn't want the zoo experience, I
-            wanted the jungle!
+            After initially exploring website builders, I quickly understood
+            that I would have to explore beyond these more restrictive services.
+            I didn't want the zoo experience, I wanted the jungle!
           </p>
           <p className={style.aboutPara}>
             So my journey to becoming a software engineer began...

@@ -24,6 +24,9 @@ const Projects = () => {
             ></img>
           </a>
           <p className={style.projectName}>Book Worms</p>
+          <p className={style.projectName}>
+            Built using Next.js, CSS, Express and PostgreSQL
+          </p>
         </section>
         <section className={style.projectWrapper}>
           <a href="https://webdeval.netlify.app/" className={style.projectLink}>
@@ -34,6 +37,7 @@ const Projects = () => {
             ></img>
           </a>
           <p className={style.projectName}>My first 'freeCodeCamp' portfolio</p>
+          <p className={style.projectName}>Built using HTML, CSS, JavaScript</p>
         </section>
         <section className={style.projectWrapper}>
           <a
@@ -48,6 +52,9 @@ const Projects = () => {
           </a>
           <p className={style.projectName}>
             Coding themed, multiple choice quiz
+          </p>
+          <p className={style.projectName}>
+            Built using React.js, CSS, Express and PostgreSQL
           </p>
         </section>
       </section>
