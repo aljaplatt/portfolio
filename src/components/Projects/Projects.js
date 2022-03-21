@@ -25,7 +25,7 @@ const Projects = () => {
           </a>
           <p className={style.projectName}>Book Worms</p>
           <p className={style.projectName}>
-            Next.js, CSS, Express and PostgreSQL
+            Next.js, CSS, Express, PostgreSQL & Firebase auth
           </p>
         </section>
         <section className={style.projectWrapper}>
