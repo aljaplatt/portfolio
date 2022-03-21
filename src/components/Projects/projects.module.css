@@ -52,6 +52,11 @@
 }
 .projectName {
   color: #fff;
+  padding: 0.5rem;
+}
+
+.projectWrapper {
+  margin-bottom: 6rem;
 }
 
 @media (min-width: 0) and (max-width: 576px) {
