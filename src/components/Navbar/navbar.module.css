@@ -45,3 +45,9 @@
     padding: 5px;
   }
 }
+
+@media (min-width: 0) and (max-width: 1040px) {
+  .navlink {
+    padding: 1rem;
+  }
+}
