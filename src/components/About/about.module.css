@@ -108,6 +108,10 @@
     display: flex;
     flex-direction: row;
   }
+
+  .aboutContainer {
+    width: 70%;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
