@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className={style.aboutSection} id="about">
       <section className={style.aboutContainer}>
-        <h2 className={style.intro}>hey, I'm Alex.</h2>
+        <h1 className={style.intro}>hey, I'm Alex.</h1>
         <Typewriter
           onInit={(typewriter) => {
             typewriter
